@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Test1",
+      "setup": "",
+      "run": "python3 xo.py",
+      "input": "XXXO",
+      "output": "False",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test2",
+      "setup": "",
+      "run": "python3 xo.py",
+      "input": "XXXOOO",
+      "output": "True",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test3",
+      "setup": "",
+      "run": "python3 xo.py",
+      "input": "xO",
+      "output": "False",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test4",
+      "setup": "",
+      "run": "python3 xo.py",
+      "input": "%$$%",
+      "output": "True",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test5",
+      "setup": "",
+      "run": "python3 xo.py",
+      "input": "XXXXXX",
+      "output": "False",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test6",
+      "setup": "",
+      "run": "python3 xo.py",
+      "input": "X%XOO",
+      "output": "True",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test7",
+      "setup": "",
+      "run": "python3 xo.py",
+      "input": "XOXO",
+      "output": "True",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test8",
+      "setup": "",
+      "run": "python3 xo.py",
+      "input": "XXOXOOOX",
+      "output": "True",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test9",
+      "setup": "",
+      "run": "python3 xo.py",
+      "input": "OOOOXXXX",
+      "output": "True",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test10",
+      "setup": "",
+      "run": "python3 xo.py",
+      "input": "MMMMMMMM",
+      "output": "True",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
