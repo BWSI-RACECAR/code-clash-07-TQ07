@@ -33,23 +33,17 @@ Input: xO Output: False
 
 
 class Solution:
-   
     def count_XO(self, string):
-        # type string: string
-        # return type: boolean
-
-        # Convert the input string to lowercase
-    
-
-        # Count the number of occurrences of 'x' and 'o'
-        X_count = string.count('X')
-        O_count = string.count('O')
-
-        x_count = string.count('x')
-        o_count = string.count('o')
-
+        #type string: string
+        #return type: boolean
+        
+        # Count the number of Xs and Os in the string
+        x_count = string.lower().count('x')
+        o_count = string.lower().count('o')
+        
         # Return True if the counts are equal, otherwise return False
-        return x_count == o_count or X_count == O_count
+        return x_count == o_count
+
 
                 
 def main():
